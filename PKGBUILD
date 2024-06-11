@@ -1,7 +1,7 @@
 # Maintainer: 7Ji <pugokushin@gmail.com>
 
 pkgname=sd-networkd-wg-ddns
-pkgver=1.0.0
+pkgver=1.1.0
 pkgrel=1
 pkgdesc="Systemd-networkd wireguard netdev endpoints DynDNS updater."
 arch=('x86_64' 'aarch64')
@@ -13,7 +13,7 @@ source=(
   "${_srcname}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz"
 )
 sha256sums=(
-  '78ce0e7a573840b10fe55aff014d0909ec962b1aadf6d27eecbbbf58e8b48470'
+  '5c3839f15072295118685987a2e686f6d24336cce2b5d10cf343a3d12946db4d'
 )
 
 build() {
